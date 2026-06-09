@@ -27,12 +27,6 @@ The dataset contains traffic-related attributes such as:
 - Geohash
 - Day
 - Timestamp
-- Road Type
-- Number of Lanes
-- Large Vehicles
-- Landmarks
-- Temperature
-- Weather
 
 Target variable:
 
