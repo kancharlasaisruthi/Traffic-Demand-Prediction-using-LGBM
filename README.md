@@ -122,9 +122,15 @@ streamlit run streamlit_app.ipynb
 ```
 
 ---
+### Results
 <img width="1014" height="605" alt="image" src="https://github.com/user-attachments/assets/b68d97a3-d418-4148-bd54-a72edd1e6e83" />
 
 <img width="972" height="721" alt="image" src="https://github.com/user-attachments/assets/b84c1f85-5c1d-40e8-8053-d5195274b8f1" />
+
+<img width="1389" height="989" alt="image" src="https://github.com/user-attachments/assets/487b9b42-195a-4edc-9c91-3afe3b0eb67d" />
+
+<img width="1789" height="490" alt="image" src="https://github.com/user-attachments/assets/a8acae2d-8506-4731-acb4-c35e6044e7c3" />
+
 
 ## Future Improvements
 
