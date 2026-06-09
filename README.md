@@ -19,7 +19,29 @@ The application enables users to provide traffic-related inputs and obtain predi
 - Interactive Streamlit application
 
 ---
+### Feature Engineering
 
+- Several feature engineering techniques were applied to improve model performance and capture temporal traffic patterns:
+
+- Timestamp Decomposition: Extracted time-based features such as hour, minute, day, and day of the week from the timestamp.
+
+- Time Slot Creation: Divided the day into 15-minute intervals to represent traffic variations throughout the day.
+
+- Rush Hour Indicator: Created a binary feature to identify peak traffic periods (7–10 AM and 5–8 PM).
+
+- Cyclical Encoding: Applied sine and cosine transformations to hour and minute features to preserve the cyclic nature of time.
+
+- Categorical Feature Encoding: Converted categorical variables such as road type, weather conditions, and landmarks into numerical representations suitable for machine learning models.
+
+- Geohash-Based Location Features: Utilized geohash values representing locations in Indonesia to capture spatial information.
+
+- Interaction Features: Combined related variables to model the influence of multiple factors on traffic demand.
+
+- Data Cleaning and Handling Missing Values: Removed inconsistencies and prepared the dataset for training.
+
+These engineered features enabled the LightGBM model to effectively learn temporal and spatial traffic patterns, resulting in an **R² score of 0.9459**.
+
+---
 ## Dataset
 
 The dataset contains traffic-related attributes such as:
