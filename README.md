@@ -2,7 +2,9 @@
 
 ## Overview
 This project predicts traffic demand using machine learning techniques and feature engineering. Multiple regression models were explored, and a LightGBM model was trained and saved for deployment.
-The model achieved an R² score of **0.9459**, demonstrating strong predictive performance on traffic demand data from Indonesia.
+
+The model achieved an R² score of ***0.9459***, demonstrating strong predictive performance on traffic demand data from Indonesia.
+
 The application enables users to provide traffic-related inputs and obtain predicted demand values through an interactive Streamlit interface.
 
 ---
