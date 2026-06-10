@@ -21,7 +21,7 @@ The application enables users to provide traffic-related inputs and obtain predi
 ---
 ### Feature Engineering
 
-- Several feature engineering techniques were applied to improve model performance and capture temporal traffic patterns:
+Several feature engineering techniques were applied to improve model performance and capture temporal traffic patterns:
 
 - Timestamp Decomposition: Extracted time-based features such as hour, minute, day, and day of the week from the timestamp.
 
